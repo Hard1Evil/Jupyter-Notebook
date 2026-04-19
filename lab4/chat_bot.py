@@ -5,7 +5,7 @@ messages = []
 print("Чат-бот запущено! Напишіть 'exit' для виходу.\n")
 
 while True:
-    user_input = input("Ти: ")
+    user_input = input("Я: ")
     
     if user_input.lower() == "exit":
         print("Чат завершено.")
